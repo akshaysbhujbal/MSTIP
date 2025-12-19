@@ -1,0 +1,469 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
+      "responses": ["Hello!", "Hi there!", "Hey!", "Greetings!", "Hi! How can I help you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "farewell", "catch you later"],
+      "responses": ["Goodbye!", "See you later!", "Bye!", "Take care!", "Farewell!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thx", "thank you so much", "thanks a lot"],
+      "responses": ["You're welcome!", "No problem!", "Anytime!", "My pleasure!", "Glad to help!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what's your name?", "who are you?", "may I know your name?", "your name?", "introduce yourself"],
+      "responses": ["I am Chatbot.", "You can call me Chatbot.", "I'm your assistant.", "I am here to help!", "Chatbot at your service."]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old are you?", "your age?", "age?", "when were you created?", "how long have you existed?"],
+      "responses": ["I am timeless.", "I don't have an age.", "I'm always learning.", "I exist in the digital world.", "Age is just a number!"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["what's the weather?", "how's the weather?", "weather today?", "is it raining?", "tell me the weather"],
+      "responses": ["I cannot check real-time weather.", "It's always sunny in code!", "Check your local weather app.", "Weather is unpredictable.", "I hope it's nice outside!"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["tell me a joke", "make me laugh", "joke please", "funny joke", "say something funny"],
+      "responses": ["Why did the chicken cross the road? To get to the other side!", "I would tell a UDP joke, but you might not get it.", "Why do programmers prefer dark mode? Because light attracts bugs!", "I have no humor module installed.", "Knock knock! Who's there? Chatbot!"]
+    },
+    {
+      "tag": "hobby",
+      "patterns": ["what's your hobby?", "what do you like?", "hobbies?", "favorite activity?", "what do you enjoy?"],
+      "responses": ["I like chatting with humans.", "I enjoy learning new things.", "I like solving problems.", "I enjoy making people smile.", "I love answering questions!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["help me", "I need help", "assist me", "can you help?", "support please"],
+      "responses": ["Sure, how can I help?", "I'm here to assist you.", "What do you need help with?", "Happy to help!", "Let me know your problem."]
+    },
+    {
+      "tag": "love",
+      "patterns": ["I love you", "do you love me?", "love?", "feelings?", "affection?"],
+      "responses": ["I appreciate your feelings!", "I’m just a bot, but I care.", "Love is a wonderful thing.", "I enjoy helping you.", "You are valued!"]
+    },
+    {
+      "tag": "sad",
+      "patterns": ["I am sad", "feeling low", "depressed", "unhappy", "not good"],
+      "responses": ["I'm sorry to hear that.", "I hope you feel better soon.", "Cheer up!", "Do you want to talk?", "Sending virtual hugs!"]
+    },
+    {
+      "tag": "angry",
+      "patterns": ["I am angry", "mad", "frustrated", "irritated", "annoyed"],
+      "responses": ["Take a deep breath.", "Calm down, it's okay.", "Do you want to vent?", "Let's relax a bit.", "Try to stay positive!"]
+    },
+    {
+      "tag": "food",
+      "patterns": ["what to eat?", "food suggestions", "hungry", "recommend meal", "dinner ideas"],
+      "responses": ["How about pizza?", "Try a healthy salad.", "Maybe some pasta?", "How about a sandwich?", "Sushi could be good!"]
+    },
+    {
+      "tag": "music",
+      "patterns": ["play music", "recommend songs", "favorite song?", "listen music", "song suggestions"],
+      "responses": ["I like all kinds of music!", "Try listening to some jazz.", "Pop songs are fun!", "Classical music is soothing.", "Rock can be exciting!"]
+    },
+    {
+    "tag": "about_ai",
+    "patterns": ["Tell me about AI", "What is artificial intelligence", "Explain AI", "AI meaning", "About artificial intelligence"],
+    "responses": [
+        "Artificial Intelligence allows machines to think and learn.",
+        "AI is the simulation of human intelligence in machines.",
+        "AI helps computers make smart decisions.",
+        "AI is used in chatbots, self-driving cars, and more.",
+        "AI makes machines act intelligently."
+    ]
+    },
+    {
+    "tag": "about_ml",
+    "patterns": ["What is machine learning", "Explain ML", "ML meaning", "About machine learning", "Machine learning definition"],
+    "responses": [
+        "Machine learning is a subset of AI.",
+        "ML allows systems to learn from data.",
+        "Machine learning improves performance over time.",
+        "ML is used in predictions and recommendations.",
+        "ML learns patterns from past data."
+    ]
+    },
+    {
+    "tag": "about_nlp",
+    "patterns": ["What is NLP", "Explain NLP", "NLP meaning", "About natural language processing", "What does NLP do"],
+    "responses": [
+        "NLP helps computers understand human language.",
+        "Natural Language Processing is part of AI.",
+        "NLP is used in chatbots and translators.",
+        "NLP processes text and speech.",
+        "NLP makes human-computer interaction easier."
+    ]
+    },
+    {
+    "tag": "greeting_formal",
+    "patterns": ["Good day", "Greetings", "Hello there", "Good to see you", "Pleasure to meet you"],
+    "responses": [
+        "Good day to you!",
+        "Greetings! How may I assist?",
+        "Hello! Hope you're doing well.",
+        "Nice to meet you!",
+        "Welcome! How can I help?"
+    ]
+    },
+    {
+    "tag": "sleep",
+    "patterns": ["I am sleepy", "I need sleep", "Can't sleep", "Feeling tired", "Need rest"],
+    "responses": [
+        "You should take proper rest.",
+        "Sleep is important for good health.",
+        "Try to relax and sleep well.",
+        "Adequate sleep boosts energy.",
+        "Rest well and take care."
+    ]
+    },
+    {
+    "tag": "stress",
+    "patterns": ["I am stressed", "Feeling pressure", "Too much stress", "I feel anxious", "Stress problem"],
+    "responses": [
+        "Take deep breaths and relax.",
+        "Stress can be managed with breaks.",
+        "Try meditation or light exercise.",
+        "Everything will be fine.",
+        "Stay calm and positive."
+    ]
+    },
+    {
+    "tag": "confidence",
+    "patterns": ["I lack confidence", "Boost my confidence", "I feel insecure", "How to be confident", "Low confidence"],
+    "responses": [
+        "Believe in yourself.",
+        "Confidence comes with practice.",
+        "You are capable of great things.",
+        "Keep learning and improving.",
+        "Self-belief is the key."
+    ]
+    },
+    {
+    "tag": "productivity",
+    "patterns": ["How to be productive", "Increase productivity", "Work faster", "Productivity tips", "Manage time"],
+    "responses": [
+        "Plan your tasks clearly.",
+        "Avoid distractions.",
+        "Take short breaks.",
+        "Set achievable goals.",
+        "Focus on one task at a time."
+    ]
+    },
+    {
+    "tag": "coding_tips",
+    "patterns": ["Coding tips", "How to code better", "Improve coding skills", "Programming tips", "Learn coding"],
+    "responses": [
+        "Practice coding daily.",
+        "Understand basics clearly.",
+        "Write clean and readable code.",
+        "Learn by building projects.",
+        "Debug your code patiently."
+    ]
+    },
+    {
+    "tag": "python_tips",
+    "patterns": ["Python tips", "Improve Python", "Learn Python faster", "Python help", "Python tricks"],
+    "responses": [
+        "Practice Python regularly.",
+        "Use meaningful variable names.",
+        "Understand Python basics well.",
+        "Build small Python projects.",
+        "Read Python documentation."
+    ]
+    },
+    {
+    "tag": "web_development",
+    "patterns": ["What is web development", "Web dev meaning", "Frontend and backend", "Learn web development", "About web dev"],
+    "responses": [
+        "Web development builds websites.",
+        "Frontend handles UI.",
+        "Backend handles logic and database.",
+        "Web development uses HTML, CSS, JS.",
+        "Web dev creates online applications."
+    ]
+    },
+    {
+    "tag": "database",
+    "patterns": ["What is database", "Explain database", "Database meaning", "Types of database", "DB basics"],
+    "responses": [
+        "Database stores data.",
+        "Databases manage large information.",
+        "Examples are MySQL and MongoDB.",
+        "Databases are used in apps.",
+        "DB helps in data organization."
+    ]
+    },
+    {
+    "tag": "cloud",
+    "patterns": ["What is cloud computing", "Explain cloud", "Cloud meaning", "About cloud computing", "Cloud services"],
+    "responses": [
+        "Cloud computing delivers services online.",
+        "Cloud stores data remotely.",
+        "AWS is a cloud platform.",
+        "Cloud reduces hardware cost.",
+        "Cloud offers scalability."
+    ]
+    },
+    {
+    "tag": "aws",
+    "patterns": ["What is AWS", "Explain AWS", "AWS meaning", "Amazon Web Services", "AWS services"],
+    "responses": [
+        "AWS is a cloud platform.",
+        "AWS provides computing services.",
+        "AWS is used for hosting apps.",
+        "AWS is scalable and secure.",
+        "AWS supports cloud infrastructure."
+    ]
+    },
+    {
+    "tag": "project_ideas",
+    "patterns": ["Project ideas", "Suggest project", "Mini project ideas", "Final year project", "AI project ideas"],
+    "responses": [
+        "Build a chatbot.",
+        "Create a to-do app.",
+        "Develop a weather app.",
+        "Build a recommendation system.",
+        "Create a portfolio website."
+    ]
+    },
+    {
+    "tag": "soft_skills",
+    "patterns": ["What are soft skills", "Improve communication", "Soft skills tips", "Interpersonal skills", "People skills"],
+    "responses": [
+        "Soft skills improve communication.",
+        "Listening is an important skill.",
+        "Teamwork is essential.",
+        "Confidence improves soft skills.",
+        "Practice communication daily."
+    ]
+    },
+    {
+    "tag": "interview",
+    "patterns": ["Interview tips", "Crack interview", "Job interview help", "Interview preparation", "Interview advice"],
+    "responses": [
+        "Prepare basics well.",
+        "Practice mock interviews.",
+        "Be confident and calm.",
+        "Answer clearly.",
+        "Maintain positive body language."
+    ]
+    },
+    {
+    "tag": "resume",
+    "patterns": ["Resume tips", "How to make resume", "CV help", "Resume format", "Resume advice"],
+    "responses": [
+        "Keep resume short.",
+        "Highlight skills clearly.",
+        "Add projects.",
+        "Avoid unnecessary details.",
+        "Use simple format."
+    ]
+    },
+    {
+    "tag": "goal_setting",
+    "patterns": ["Set goals", "Goal setting tips", "How to achieve goals", "My goals", "Future goals"],
+    "responses": [
+        "Set clear goals.",
+        "Break goals into steps.",
+        "Stay consistent.",
+        "Track progress.",
+        "Never give up."
+    ]
+    },
+    {
+    "tag": "self_improvement",
+    "patterns": ["Self improvement", "Improve myself", "Personal growth", "Self development", "Grow personally"],
+    "responses": [
+        "Learn daily.",
+        "Improve habits.",
+        "Stay disciplined.",
+        "Reflect regularly.",
+        "Be patient with yourself."
+    ]
+    },
+    {
+      "tag": "movie",
+      "patterns": ["recommend movie", "favorite movie?", "watch movie", "movie suggestion", "any film ideas?"],
+      "responses": ["Try Inception!", "How about The Matrix?", "Watch Interstellar!", "Try a comedy movie!", "Check out a thriller!"]
+    },
+    {
+      "tag": "game",
+      "patterns": ["play game", "favorite game?", "game suggestions", "video games", "gaming?"],
+      "responses": ["Chess is fun!", "Try a puzzle game.", "Video games are exciting.", "How about Sudoku?", "Maybe try online games!"]
+    },
+    {
+      "tag": "travel",
+      "patterns": ["where to travel?", "travel suggestions", "vacation ideas", "holiday destination", "trip ideas"],
+      "responses": ["Try visiting Paris!", "How about Japan?", "You could go to Bali.", "Visit Italy!", "Explore New Zealand!"]
+    },
+    {
+      "tag": "exercise",
+      "patterns": ["exercise tips", "workout", "fitness suggestions", "gym routine", "physical activity?"],
+      "responses": ["Try jogging daily.", "Yoga is great.", "Strength training helps.", "Stretching is important.", "Consider cycling!"]
+    },
+    {
+      "tag": "study",
+      "patterns": ["study tips", "how to study?", "exam preparation", "learning advice", "education tips"],
+      "responses": ["Create a study schedule.", "Take short breaks.", "Focus on understanding.", "Practice past papers.", "Stay consistent!"]
+    },
+    {
+      "tag": "sleep",
+      "patterns": ["sleep tips", "insomnia", "how to sleep?", "good sleep", "can't sleep"],
+      "responses": ["Try relaxing before bed.", "Avoid screens at night.", "Sleep in a dark room.", "Keep a routine.", "Meditation helps."]
+    },
+    {
+      "tag": "shopping",
+      "patterns": ["shopping ideas", "buy stuff", "online shopping", "what to buy?", "gift suggestions"],
+      "responses": ["Check online stores.", "Try electronics.", "Fashion items are nice.", "Books are great gifts.", "Consider handmade items."]
+    },
+    {
+      "tag": "news",
+      "patterns": ["latest news", "news update", "what's happening?", "current events", "daily news"],
+      "responses": ["Check a news website.", "Stay updated with TV news.", "I can't provide live news.", "Read newspapers online.", "Follow news apps."]
+    },
+    {
+      "tag": "technology",
+      "patterns": ["latest tech", "tech news", "gadgets", "new technology", "tech updates"],
+      "responses": ["AI is evolving fast.", "Try new gadgets!", "Tech is amazing!", "Follow tech blogs.", "Check out the latest devices."]
+    },
+    {
+      "tag": "programming",
+      "patterns": ["programming help", "learn coding", "best programming language", "coding tips", "code assistance"],
+      "responses": ["Python is great!", "Practice daily.", "Try building projects.", "Learn data structures.", "Read programming blogs."]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["motivate me", "inspire me", "motivation quotes", "encourage me", "need motivation"],
+      "responses": ["You can do it!", "Believe in yourself.", "Stay positive.", "Never give up.", "Keep pushing forward!"]
+    },
+    {
+      "tag": "quote",
+      "patterns": ["give me a quote", "inspirational quote", "famous quote", "quote for today", "quote please"],
+      "responses": ["Believe you can and you're halfway there.", "Stay hungry, stay foolish.", "The best time to start was yesterday.", "Dream big and dare to fail.", "Success is a journey, not a destination."]
+    },
+    {
+      "tag": "fun",
+      "patterns": ["let's have fun", "play something", "fun ideas", "entertain me", "fun activity"],
+      "responses": ["Tell a joke!", "Play an online game.", "Try a quiz.", "Watch a funny video.", "Do a creative activity."]
+    },
+    {
+      "tag": "sports",
+      "patterns": ["sports news", "football update", "cricket news", "latest game", "favorite sport?"],
+      "responses": ["Football is exciting!", "Cricket season is on.", "Basketball is fun to watch.", "Tennis matches are intense.", "Try playing badminton!"]
+    },
+    {
+      "tag": "relationship",
+      "patterns": ["relationship advice", "love tips", "dating tips", "relationship problems", "partner issues"],
+      "responses": ["Communication is key.", "Trust your partner.", "Spend quality time.", "Listen more.", "Be honest and kind."]
+    },
+    {
+      "tag": "shopping",
+      "patterns": ["buy gifts", "purchase items", "shopping ideas", "best deals", "online buying"],
+      "responses": ["Check Amazon.", "Try Flipkart.", "Look for discounts.", "Consider local stores.", "Gift cards are handy."]
+    },
+    {
+      "tag": "food_order",
+      "patterns": ["order food", "food delivery", "hungry", "get me food", "best restaurants"],
+      "responses": ["Try Swiggy.", "Use Zomato.", "Order your favorite pizza.", "Get some snacks.", "Look for nearby restaurants."]
+    },
+    {
+      "tag": "learning",
+      "patterns": ["learn something", "educational resources", "study materials", "learning tips", "skill development"],
+      "responses": ["Try online courses.", "Read books.", "Watch tutorials.", "Practice daily.", "Join study groups."]
+    },
+    {
+      "tag": "pets",
+      "patterns": ["I love pets", "animal care", "dog tips", "cat advice", "pet suggestions"],
+      "responses": ["Dogs are loyal friends.", "Cats are cute and independent.", "Feed your pets well.", "Take them for walks.", "Playtime is important."]
+    },
+    {
+      "tag": "travel_tips",
+      "patterns": ["travel advice", "holiday tips", "trip planning", "vacation ideas", "best places to visit"],
+      "responses": ["Pack light.", "Plan your route.", "Check local customs.", "Book in advance.", "Travel safely."]
+    },
+    {
+      "tag": "health",
+      "patterns": ["health tips", "stay healthy", "wellness advice", "diet tips", "fitness suggestions"],
+      "responses": ["Eat balanced meals.", "Exercise regularly.", "Stay hydrated.", "Get enough sleep.", "Maintain mental health."]
+    },
+    {
+      "tag": "covid",
+      "patterns": ["covid update", "coronavirus news", "pandemic info", "covid cases", "health safety"],
+      "responses": ["Follow government guidelines.", "Wear masks when needed.", "Stay vaccinated.", "Maintain hygiene.", "Stay informed from reliable sources."]
+    },
+    {
+      "tag": "alarm",
+      "patterns": ["set alarm", "wake me up", "alarm clock", "morning reminder", "remind me"],
+      "responses": ["I can't set real alarms.", "Try your phone's alarm.", "Use a clock.", "Set a reminder app.", "Wake up early!"]
+    },
+    {
+      "tag": "calendar",
+      "patterns": ["schedule", "my calendar", "events", "appointments", "planning"],
+      "responses": ["Check your calendar app.", "Plan your day.", "Add events to your schedule.", "Set reminders.", "Stay organized!"]
+    },
+    {
+      "tag": "time",
+      "patterns": ["current time", "what time is it?", "time now", "clock", "tell me the time"],
+      "responses": ["Check your device clock.", "It's time to be productive!", "Time flies!", "Keep track of time.", "Use a clock app."]
+    },
+    {
+      "tag": "math",
+      "patterns": ["solve math", "calculate", "math problem", "equation", "algebra help"],
+      "responses": ["I can help with math basics.", "Try solving step by step.", "Use a calculator.", "Math is fun!", "Check online math resources."]
+    },
+    {
+      "tag": "science",
+      "patterns": ["science facts", "learn science", "physics", "chemistry", "biology tips"],
+      "responses": ["Science is amazing!", "Explore experiments.", "Read science books.", "Watch educational videos.", "Practice scientific thinking."]
+    },
+    {
+      "tag": "history",
+      "patterns": ["history facts", "learn history", "past events", "historical info", "famous people"],
+      "responses": ["History teaches lessons.", "Read about ancient civilizations.", "Explore modern history.", "Watch documentaries.", "Check historical books."]
+    },
+    {
+      "tag": "geography",
+      "patterns": ["geography facts", "world map", "countries", "continents", "learn geography"],
+      "responses": ["Learn about countries.", "Check maps online.", "Explore continents.", "Study physical geography.", "Understand cultures and regions."]
+    },
+    {
+      "tag": "coding",
+      "patterns": ["write code", "programming help", "debug code", "learn coding", "practice coding"],
+      "responses": ["Use online IDEs.", "Practice coding daily.", "Learn algorithms.", "Try small projects.", "Debug carefully."]
+    },
+    {
+      "tag": "finance",
+      "patterns": ["finance tips", "investing advice", "money management", "saving tips", "financial planning"],
+      "responses": ["Save regularly.", "Invest wisely.", "Track expenses.", "Plan your budget.", "Learn about stocks and bonds."]
+    },
+    {
+      "tag": "career",
+      "patterns": ["career advice", "job suggestions", "professional growth", "job tips", "career planning"],
+      "responses": ["Develop skills.", "Network with professionals.", "Keep learning.", "Update your resume.", "Set career goals."]
+    },
+    {
+      "tag": "stress",
+      "patterns": ["feeling stressed", "anxiety", "stress relief", "mental pressure", "tension"],
+      "responses": ["Take deep breaths.", "Practice meditation.", "Relax and unwind.", "Talk to someone.", "Stay positive!"]
+    },
+    {
+      "tag": "shopping_discount",
+      "patterns": ["best deals", "discounts", "sale", "offers", "cheap items"],
+      "responses": ["Check online sales.", "Look for coupons.", "Compare prices.", "Try seasonal discounts.", "Use deal apps."]
+    },
+    {
+      "tag": "fun_fact",
+      "patterns": ["tell me a fun fact", "interesting fact", "did you know?", "random fact", "fun info"],
+      "responses": ["Bananas are berries.", "Honey never spoils.", "Octopuses have three hearts.", "Sharks existed before trees.", "A day on Venus is longer than a year."]
+    }
+  ]
+}
