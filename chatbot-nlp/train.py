@@ -5,8 +5,8 @@ import numpy as np
 from nltk.stem import WordNetLemmatizer
 from sklearn.linear_model import LogisticRegression
 
-# nltk.download('punkt')
-# nltk.download('wordnet')
+nltk.download('punkt')
+nltk.download('wordnet')
 
 lemmatizer = WordNetLemmatizer()
 
